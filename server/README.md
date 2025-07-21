@@ -11,12 +11,6 @@ This is the backend API server for the NeuroFlow project management application.
 - Multer for file uploads
 
 ## Setup Instructions
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- MongoDB (local or Atlas)
-
 ### Installation
 
 1. Clone the repository
@@ -144,8 +138,6 @@ The API uses a standardized error response format:
 
 All routes except for authentication routes require a valid JWT token in the Authorization header:
 
-```
-Authorization: Bearer your_jwt_token
 ```
 
 ## License
