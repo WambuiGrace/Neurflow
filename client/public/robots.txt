@@ -1,0 +1,17 @@
+# TODO : UPDATE ALLOWED AND DISALLOWED PAGES.
+
+User-agent: *
+Allow: /
+
+# Sitemap 
+Sitemap: https://neuroflow.com/sitemap.xml
+
+# Disallow admin and API routes
+Disallow: /app/
+Disallow: /api/
+Disallow: /admin/
+
+# Allow specific pages
+Allow: /
+Allow: /login
+Allow: /signup
